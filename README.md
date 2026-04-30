@@ -8,7 +8,7 @@
 ## 前置要求
 
 - GitHub 仓库拥有 Actions 权限（公开或私有仓库均可）
-- 目标 Streamlit 应用部署在可公开访问的 URL（如 Streamlit Community Cloud）
+- 目标 Streamlit 应用部署在可公开访问的 URL（如 xxxx.streamlit.app）
 - 如需使用 API 方式调用，需要 GitHub 个人访问令牌（具备 `repo` 和 `workflow` 权限）
 
 ---
