@@ -1,6 +1,6 @@
 # Streamlit 应用自动唤醒工具
 
-本工具通过 GitHub Actions 定时或手动触发，配合 Playwright 自动化脚本，访问 Streamlit 应用并处理其休眠（Sleep）状态，确保应用保持活跃或快速唤醒。
+本工具通过 GitHub Actions 手动触发或API调用，配合 Playwright 自动化脚本，访问 Streamlit 应用并处理其休眠（Sleep）状态，确保应用保持活跃或快速唤醒。
 
 > ⭐ 觉得有用？给个 Star 支持一下！  
 > 官网：[https://streamlit.io](https://streamlit.io)
