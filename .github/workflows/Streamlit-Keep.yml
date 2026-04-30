@@ -42,7 +42,7 @@ jobs:
           TARGET_URL: ${{ github.event.inputs.target_url }}
         run: |
           echo "开始执行 Streamlit 应用唤醒任务..."
-          python scripts/Streamlit/Keep.py
+          python Keep.py
           echo "唤醒任务执行完毕！"
 
       - name: 清理历史运行记录
