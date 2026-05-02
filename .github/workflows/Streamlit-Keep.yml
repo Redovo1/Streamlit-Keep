@@ -9,6 +9,9 @@ on:
         default: 'https://sheet-tool-zsjsj.streamlit.app'
         type: string
 
+  schedule:
+    - cron: '0 */6 * * *'
+
 permissions:
   contents: read
 
