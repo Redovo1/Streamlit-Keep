@@ -9,8 +9,11 @@ on:
         default: 'https://wz9ntekjupm7u.streamlit.app/'
         type: string
 
-  schedule:
-    - cron: '*/20 * * * *'
+  # GitHub hosted runner has been flaky for this high-frequency keepalive and
+  # sends noisy failure emails when the job is never acquired by a runner.
+  # Keep manual dispatch available; scheduled keepalive is disabled for now.
+  # schedule:
+  #   - cron: '*/20 * * * *'
 
 permissions:
   contents: read
